@@ -1,0 +1,5 @@
+{
+    lSample: "$py{random.sample(${lAnimations}, ${iHumanCount})}",
+    lStartRelative: "$!foreach{$L{%~0 $py{random.uniform(0, 0.9)}}, *$range{${iHumanCount}}}",
+    lDeltaRot: "$!foreach{$L{%~0 $py{round(-90 * (1 + rnd.normalvariate(0.0, 0.5)),0)}}, *$range{${iHumanCount}}}"
+}

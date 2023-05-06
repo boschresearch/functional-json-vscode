@@ -1,0 +1,37 @@
+{
+    "name": "ison-language",
+    "displayName": "ison language",
+    "description": "ISON Language Syntax Highlighting",
+    "version": "1.2.2",
+    "engines": {
+        "vscode": "^1.64.0"
+    },
+    "categories": [
+        "Programming Languages",
+        "Themes"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "ison",
+                "aliases": [
+                    "ison",
+                    "ison"
+                ],
+                "extensions": [
+                    ".ison",
+                    ".json",
+                    ".json5"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "ison",
+                "scopeName": "source.ison",
+                "path": "./syntaxes/ison.tmLanguage.json"
+            }
+        ]
+    }
+}
