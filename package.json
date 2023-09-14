@@ -6,6 +6,10 @@
     "engines": {
         "vscode": "^1.64.0"
     },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/boschresearch/functional-json-vscode"
+    },
     "categories": [
         "Programming Languages",
         "Themes"
