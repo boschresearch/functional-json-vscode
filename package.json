@@ -2,7 +2,7 @@
     "name": "ison-language",
     "displayName": "ison language",
     "description": "ISON Language Syntax Highlighting",
-    "version": "1.2.5",
+    "version": "1.2.6",
     "engines": {
         "vscode": "^1.64.0"
     },
