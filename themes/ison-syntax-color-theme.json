@@ -1,12 +1,5 @@
 {
 	"name": "ison-syntax",
-	"type": "dark",
-	"colors": {
-		"editor.background": "#191e20",
-		"editor.foreground": "#eeffff",
-		"activityBarBadge.background": "#007acc",
-		"sideBarTitle.foreground": "#bbbbbb"
-	},
 	"tokenColors": [
 		{
 			"name": "Ison Function",
@@ -256,7 +249,7 @@
 		{
 			"name": "meta.method.js",
 			"scope": [
-				"meta.class-method.js", 
+				"meta.class-method.js",
 				"entity.name.function.js",
 				"variable.function.constructor"
 			],
